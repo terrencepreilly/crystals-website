@@ -1,15 +1,34 @@
 #banner {
     padding-top: 250px;
 }
-#banner > img {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    max-height: 300px;
+
+#subbanner {
+    background-color: #124;
+    color: white;
+}
+
+#subbanner > div {
+    max-width: 800px;
+    margin: 0 auto;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-family: georgia, serif;
+}
+
+#subbanner h1 {
 }
 
 nav > a {
-    padding-right: 10px;
+    padding-right: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    font-family: sans-serif;
+}
+
+#sections {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 0 5vw;
 }
