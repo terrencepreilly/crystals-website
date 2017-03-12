@@ -1,6 +1,15 @@
-<nav>
-  <a [routerLink]="['About']">About</a>
-  <a [routerLink]="['Work']">Work</a>
-</nav>
+<div id="content">
+  <div id="banner">
+    <img [src]="banner">
+  </div>
 
-<router-outlet></router-outlet>
+  <nav>
+    <a [routerLink]="['Splash']">Splash!</a>
+    <a [routerLink]="['About']">About</a>
+    <a [routerLink]="['Videos']">Videos</a>
+    <a [routerLink]="['Writing']">Writing</a>
+    <a [routerLink]="['Contact']">Contact</a>
+  </nav>
+
+  <router-outlet></router-outlet>
+</div>

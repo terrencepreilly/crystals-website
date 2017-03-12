@@ -8,15 +8,13 @@ class Video {
   Video(this._playerUrl, this._url, this._title);
 
   String get playerUrl => _playerUrl;
-
   String get url => _url;
-
   String get title => _title;
 }
 
 
 @Injectable()
-class VideoService {
+class VideosService {
   final List<Video> _videos = [
     new Video(
       "https://player.vimeo.com/video/196432229",

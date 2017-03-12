@@ -1,0 +1,10 @@
+<h1>Writing</h1>
+<div *ngFor="let writing of writings">
+  <h2>{{writing.title}}</h2>
+  <div>
+    <div *ngFor="let pgroup of writing.bodyWithQuotations()">
+      <p>{{pgroup.first}}</p>
+      <div class="quotation">{{pgroup.last}}</div>
+    </div>
+  </div>
+</div>
